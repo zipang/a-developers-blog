@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content
+  label: Static Pages
+  create: all
+  match: "**/*.md"
+  templates:
+  - page
+- type: directory
   path: blog
   label: Blog
   create: documents
