@@ -1,11 +1,11 @@
 module.exports = {
-	title: "My Site",
-	tagline: "The tagline of my site",
-	url: "https://your-docusaurus-test-site.com",
+	title: "A Developer's Blog",
+	tagline: "Just a place to note what i have to do over and over again when installing new environments (linux, javascript)",
+	url: "https://eidolon-labs.com",
 	baseUrl: "/",
-	favicon: "img/favicon.ico",
-	organizationName: "facebook", // Usually your GitHub org/user name.
-	projectName: "docusaurus", // Usually your repo name.
+	favicon: "img/favicon.png",
+	organizationName: "Eidolon Labs", // Usually your GitHub org/user name.
+	projectName: "a-developers-blog", // Usually your repo name.
 	themeConfig: {
 		navbar: {
 			title: "A developer's blog",
@@ -31,19 +31,7 @@ module.exports = {
 		footer: {
 			style: "dark",
 			links: [
-				{
-					title: "Docs",
-					items: [
-						{
-							label: "Style Guide",
-							to: "docs/"
-						},
-						{
-							label: "Second Doc",
-							to: "docs/doc2/"
-						}
-					]
-				},
+
 				{
 					title: "Community",
 					items: [
@@ -70,12 +58,12 @@ module.exports = {
 						},
 						{
 							label: "GitHub",
-							href: "https://github.com/facebook/docusaurus"
+							href: "https://github.com/zipang/a-developers-blog"
 						}
 					]
 				}
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+			copyright: `Copyright © ${new Date().getFullYear()} - Eidolon Labs.`
 		}
 	},
 	presets: [
