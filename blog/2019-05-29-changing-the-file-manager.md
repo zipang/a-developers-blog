@@ -41,4 +41,4 @@ xdg-mime default caja.desktop inode/directory application/x-gnome-saved-search
 ```
 
 References :
-[https://www.linuxuprising.com/2018/07/how-to-replace-nautilus-with-nemo-file.html](How To Replace Nautilus With Nemo File Manager On Ubuntu Or Pop!\_OS Gnome Desktop)
+[How To Replace Nautilus With Nemo File Manager On Ubuntu Or Pop!\_OS Gnome Desktop](https://www.linuxuprising.com/2018/07/how-to-replace-nautilus-with-nemo-file.html)

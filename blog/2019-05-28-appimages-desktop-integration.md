@@ -6,12 +6,12 @@ author_title: Freelance Fullstack Developer
 author_url: https://github.com/zipang
 author_image_url: https://avatars3.githubusercontent.com/u/658082?s=460&v=4
 tags:
-  - linux
-  - appimage
-  - integration
+    - linux
+    - appimage
+    - integration
 ---
 
-# UNIVERSAL APPLICATION (appImage) INSTALLATION
+# Universal applications (appImage) installation and desktop integration
 
 ## Installation
 
@@ -26,7 +26,7 @@ In most linux flavors, this step can be done by creating a .desktop file describ
 
 Here is a basic .desktop template that can be used for the most frequent and basic usages !
 
-```desktop
+```properties
 [Desktop Entry]
 Name=XXXXXXX
 Comment=This is a very usefull app
