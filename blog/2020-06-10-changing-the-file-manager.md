@@ -17,9 +17,9 @@ As you move between linux distros and from one window manager to the other.. the
 
 In this example i will take the example of something that is really central and crucial to your day to day productivity : the file manager.
 
-Recent window managers like GNOME, CINNAMON or even XFCE have a corpus of basic utilities : the text editor, the package manager, the settings .. all usually being forks of a precedent incarnation.
+Each desktop environments (GNOME 3, CINNAMON, MATE, KDE, XFCE..) usually come with a corpus of basic utilities : the text editor, the package manager, the image viewer, the settings .. all usually being forks of a precedent incarnation.
 
-In my opinion, Caja is near the perfect incarnation of a file manager coming to its perfect incarnation more than 20 years after its initial release.
+Now, in my opinion, Caja is near the perfect incarnation of a file manager having come to its perfect incarnation after more than 20 years in the development.. (Caja is a fork of the Gnome 2 file manager)
 
 ## First steps :
 
@@ -37,8 +37,10 @@ sudo apt install caja-image-converter
 Then, if everything looks fine, it's time to make caja the default file manager by associating it to the MIME type associated to system files and folder
 
 ```bash
-xdg-mime default caja.desktop inode/directory application/x-gnome-saved-search
+xdg-mime default caja.desktop inode/directory 
+xdg-mime default caja.desktop application/x-gnome-saved-search
 ```
 
 References :
-[https://www.linuxuprising.com/2018/07/how-to-replace-nautilus-with-nemo-file.html](How To Replace Nautilus With Nemo File Manager On Ubuntu Or Pop!\_OS Gnome Desktop)
+
+* [How To Replace Nautilus With Nemo File Manager On Ubuntu Or Pop!\_OS Gnome Desktop](https://www.linuxuprising.com/2018/07/how-to-replace-nautilus-with-nemo-file.html)

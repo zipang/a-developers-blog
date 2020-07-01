@@ -11,12 +11,16 @@ tags:
   - integration
 ---
 
-# UNIVERSAL APPLICATION (appImage) INSTALLATION
+# Universal Applications installation and integration (appImage)
 
 ## Installation
 
 Download the appImage in a specific folder suitable for all manually installed apps.
 For instance :
+
+```bash
+/usr/local/bin
+```
 
 ## Desktop Integration
 
@@ -24,9 +28,9 @@ This step is to provide a launcher for the AppImage.
 
 In most linux flavors, this step can be done by creating a .desktop file describing the application.
 
-Here is a basic .desktop template that can be used for the most frequent and basic usages !
+Here is a basic `.desktop` file template that can be used for the most frequent and basic usages !
 
-```desktop
+```toml
 [Desktop Entry]
 Name=XXXXXXX
 Comment=This is a very usefull app
@@ -35,7 +39,7 @@ Exec=env VAR1=VAL1 /path/to/app.appImage
 Icon=/path/to/some/icon.png
 Type=Application
 Categories=Utility;TextEditor;Development;IDE;
-Keywords=some;comma;separated;keywords;
+Keywords=more;comma;separated;keywords;
 ```
 
 If you want more desktop files examples, list the directory of the `/usr/share/applications` and cat the content of the applications that would be a good model for yours.
