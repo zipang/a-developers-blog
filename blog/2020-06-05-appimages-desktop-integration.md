@@ -6,12 +6,10 @@ author_title: Freelance Fullstack Developer
 author_url: https://github.com/zipang
 author_image_url: https://avatars3.githubusercontent.com/u/658082?s=460&v=4
 tags:
-  - linux
-  - appimage
-  - integration
+    - linux
+    - appimage
+    - integration
 ---
-
-# Universal Applications installation and integration (appImage)
 
 ## Installation
 
