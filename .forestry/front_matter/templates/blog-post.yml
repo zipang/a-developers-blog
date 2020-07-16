@@ -25,3 +25,5 @@ fields:
   type: tag_list
   default: []
   label: tags
+pages:
+- blog/2020-l-annee-de-la-jamstack.md
