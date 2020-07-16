@@ -12,9 +12,9 @@ author_url: https://github.com/zipang
 author_image_url: https://avatars3.githubusercontent.com/u/658082?s=460&v=4
 
 ---
-Est-ce que 2020 verra vraiment une bascule du paradigme de développement établi pour les sites web ?
+Est-ce que 2020 verra enfin vraiment une bascule du paradigme de développement établi pour les sites web ? En clair : est-ce que les solutions JQMStack vont s'imposer au détriment de leur prédecessur vieillissant : Wordpress et la LAMP stack...?
 
-C'eest ce que tous les supporters de la JAMStack espèrent et il y a des raisons de penser que 2020 pourrait voir leurs espoirs se réaliser.
+C'est ce que tous les supporters de la JAMStack espèrent et il y a des raisons de penser que 2020 pourrait voir leurs espoirs se réaliser.
 
 ## L'arrivée à maturité des frameworks
 
