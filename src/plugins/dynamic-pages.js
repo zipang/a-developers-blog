@@ -1,4 +1,10 @@
 import path from "path";
+import globby from "globby";
+import {
+	parseMarkdownFile,
+	normalizeUrl,
+	aliasedSitePath
+  } from '@docusaurus/utils';
 
 const _DEFAULT_OPTIONS = {
 	contentDirs: ["content"], // where local text content is stored in markdown + front matter format
@@ -20,7 +26,7 @@ const dynamicPagesPlugin = (context, opts = {}) => {
 	const { contentDirs, templateDirs } = pluginOptions;
 
 	/**
-	 * Reload when a file in these paths changes
+	 * Reload when a file if these paths changes
 	 */
 	const getPathsToWatch = () => [
 		...contentDirs.map((p) => path.resolve(siteDir, p, "**/*.md")),
@@ -28,14 +34,20 @@ const dynamicPagesPlugin = (context, opts = {}) => {
 	];
 
 	/**
-	 * Load mardown content
+	 * Load files content (markdown+front-matter)
 	 */
-	const loadContent = () => {};
+	const loadContent = async () => {
+
+		// Get the matching files
+		const files = await globby(include, {
+			cwd: siteDir,
+		});
+	};
 
 	/**
 	 * Create pages for each rendered markdown file
 	 */
-	const contentLoaded = () => {};
+	const contentLoaded = async () => {};
 
 	/**
 	 * Plugin object with dedicated lifecycle methods
