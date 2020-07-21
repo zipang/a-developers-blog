@@ -1,10 +1,6 @@
 import path from "path";
 import globby from "globby";
-import {
-	parseMarkdownFile,
-	normalizeUrl,
-	aliasedSitePath
-  } from '@docusaurus/utils';
+import { parseMarkdownFile, normalizeUrl, aliasedSitePath } from "@docusaurus/utils";
 
 const _DEFAULT_OPTIONS = {
 	contentDirs: ["content"], // where local text content is stored in markdown + front matter format
@@ -37,10 +33,13 @@ const dynamicPagesPlugin = (context, opts = {}) => {
 	 * Load files content (markdown+front-matter)
 	 */
 	const loadContent = async () => {
-
 		// Get the matching files
 		const files = await globby(include, {
-			cwd: siteDir,
+			cwd: siteDir
+		});
+
+		files.map((fullpath) => {
+			const parsedContent = parseMarkdownFile(fullpath);
 		});
 	};
 
